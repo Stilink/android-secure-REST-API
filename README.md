@@ -1,7 +1,7 @@
 # Android-Secure-REST-API
 
 
-####Part 1: Launch Activity and Login Activity 
+#### Part 1: Launch Activity and Login Activity 
 
 1. Create a new application from the application templates with a *Navigation Drawer Activity*.
     
@@ -81,7 +81,7 @@
       
 9. Implement a function that validates the input fields when the *Login* Button is clicked (use the *setError* method to show the error messages to the user)
 
-####Part 2: Network Layer Implementation
+#### Part 2: Network Layer Implementation
 
 1. Read and understand the Retrofit library documentation:
     https://square.github.io/retrofit/
