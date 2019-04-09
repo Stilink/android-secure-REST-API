@@ -51,7 +51,7 @@
 6. Read and understand how *SharedPreferences* work on Android
     https://developer.android.com/training/data-storage/shared-preferences#java
     
-7. Once you understand how use SharedPreferences to verify in the *LaunchActivity* that has been authenticated or not (check for the token on the SharedPreferences):
+7. Use the SharedPreferences to verify in the *LaunchActivity* if the user has been authenticated or not:
    ```java
     public class LaunchActivity
         extends AppCompatActivity
@@ -176,3 +176,5 @@
 13. Store the access token on the *SharedPreferences* and start the *MainActivity*.
 
 14. Close your App and open it again. Verify that *LaunchActivity* takes you directly to the *MainActivity*.
+
+15. Implement a *logout* function that clears the Token from the *SharedPreferences* and redirects to the *LoginActivity* (Do not forget to call finish() on the MainActivity to remove it from the activities stack).
