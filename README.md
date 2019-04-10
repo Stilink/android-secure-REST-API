@@ -171,7 +171,7 @@
 
    ```
    
-    Note: Be aware that if need to update your UI again you will need to switch back the UI thready by calling the *runOnUiThread()* method that belongs to the Activity class.
+    Note: Be aware that if you need to update your UI again, you will need to switch back the UI thready by calling the *runOnUiThread()* method that belongs to the Activity class.
     
 13. Store the access token on the *SharedPreferences* and start the *MainActivity*.
 
