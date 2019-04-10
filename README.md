@@ -139,7 +139,7 @@
 
     hint:   https://developer.android.com/guide/components/processes-and-threads 
 
-11. Create an instance of the ExecutorService class. This will allow you to switch to the background thread to be able to make Network Requests
+11. Create an instance of the ExecutorService class. This will allow you to switch to the background thread to be able to make the  API Request.
    ```java
    private final ExecutorService executorService = Executors.newFixedThreadPool( 1 );
 
