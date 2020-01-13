@@ -1,4 +1,4 @@
-# Android-Secure-REST-API
+# 3.2 Android Secure REST API
 
 
 #### Part 1: Launch Activity and Login Activity 
